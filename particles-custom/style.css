@@ -36,5 +36,8 @@ body {
     width: 100%;
     height: 100%;
     /*背景色*/
-    background-color: #f7ffc1;
+    background-image: url('images/kisyakaiken.jpg');
+    background-size: cover; /* 画像を領域全体にフィットさせる */
+  background-position: center; /* 中央に配置 */
+  background-repeat: no-repeat; /* 繰り返し表示をオフ */
 }

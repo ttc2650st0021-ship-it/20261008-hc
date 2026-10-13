@@ -24,6 +24,10 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
+    -webkit-text-stroke: 4px #333333;
+    /* 線の太さと色 */
+    paint-order: stroke fill;
+    /* 輪郭を文字の背後に回して太線でも潰れなくする */
 }
 
 /*===== particle.jsのエリア設定 =====*/
@@ -36,8 +40,11 @@ body {
     width: 100%;
     height: 100%;
     /*背景色*/
-    background-image: url('images/kisyakaiken.jpg');
-    background-size: cover; /* 画像を領域全体にフィットさせる */
-  background-position: center; /* 中央に配置 */
-  background-repeat: no-repeat; /* 繰り返し表示をオフ */
+    background-image: url('images/bokete.png');
+    background-size: cover;
+    /* 画像を領域全体にフィットさせる */
+    background-position: center;
+    /* 中央に配置 */
+    background-repeat: no-repeat;
+    /* 繰り返し表示をオフ */
 }

@@ -4,7 +4,7 @@ particlesJS('particles-js',
             //シェイプ数
             "number": {
                 //要素内に表示するシェイプの数
-                "value": 80,
+                "value": 200,
                 "density": {
                     //シェイプ表示間隔設定
                     "enable": true, //true:有効, false:無効
@@ -69,9 +69,9 @@ particlesJS('particles-js',
             //シェイプサイズ
             "size": {
                 //★【変更点】普段は小さくしておく（ギャップを作るため 50 -> 20 に変更）
-                "value": 20,
+                "value": 3,
                 //ランダムサイズ
-                "random": true, //true:有効, false:無効
+                "random": false, //true:有効, false:無効
                 //サイズアニメーション設定
                 "anim": {
                     //アニメーション設定
@@ -150,8 +150,8 @@ particlesJS('particles-js',
                 },
                 //★【変更点】巨大化（bubble）の値をドカンと膨らむように調整
                 "bubble": {
-                    "distance": 200, //巨大化が反応するカーソルからの距離
-                    "size": 180,     //膨らんだ時の最大サイズ（40 -> 180に大幅拡大）
+                    "distance": 180, //巨大化が反応するカーソルからの距離
+                    "size": 250,     //膨らんだ時の最大サイズ（40 -> 180に大幅拡大）
                     "duration": 0.3, //膨らむまでの時間（2 -> 0.3秒に縮めて「ドカン」感を演出）
                     "opacity": 1,    //膨らんだ時の透過率（誤表記の8 -> 1に修正）
                     "speed": 3
